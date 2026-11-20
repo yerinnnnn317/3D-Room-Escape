@@ -1,0 +1,20 @@
+# 설치된 패키지 (npm install 하면 다시 생김)
+node_modules/
+
+# 빌드 결과물 (npm run build 하면 다시 생김)
+dist/
+
+# 로그·임시 파일
+*.log
+npm-debug.log*
+.vite/
+
+# 개인 설정·비밀 값
+.env
+.env.*
+
+# 운영체제·에디터가 만드는 파일
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
